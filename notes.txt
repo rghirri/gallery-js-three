@@ -1,0 +1,22 @@
+// fetch('./gallery.json')
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
+    // import gallery from './gallery.json' assert { type: 'JSON' };
+    // console.log(gallery);
+
+    // var mydata = JSON.parse(gallery);
+    // console.log(mydata[0].image);
+    // console.log(mydata[0].title);
+
+
+//     var xmlhttp = new XMLHttpRequest();
+// xmlhttp.onreadystatechange = function() {
+//   if (this.readyState == 4 && this.status == 200) {
+//     var myObj = JSON.parse(this.responseText);
+//     // document.getElementById("demo").innerHTML = myObj.name;
+//     console.log(myObj.gallery);
+//     //console.log(myObj.gallery[0].title);
+//   }
+// };
+// xmlhttp.open("GET", "gallery.json", true);
+// xmlhttp.send();

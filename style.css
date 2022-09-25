@@ -23,7 +23,6 @@ html,body{
     src: url(vendor/fonts/Poppins-font/Poppins-Light.ttf);
 }
 
-
 h1{
     font-family: 'graphik';
     font-size: 32px;
@@ -55,6 +54,7 @@ section{
   max-width: 80vw;
   margin: auto;
   text-align: center;
+  padding: 90px 0px;
 }
 
 .full-width-wrapper{
