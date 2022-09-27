@@ -48,26 +48,29 @@ const gallery = [
     }
 ];
 
+// console.log(headerGallery);
+// console.log(gallery);
+
 // console.log(gallery);
 // console.log(gallery[0].title);
 
-headerGallery.forEach(displayHeaderGallery);
+// headerGallery.forEach(displayHeaderGallery);
 
-function displayHeaderGallery(value, index, array) {
-    if(value) {
-    console.log(value.title);
-    console.log(value.subTitle);
-    }
- }
- displayHeaderGallery();
+// function displayHeaderGallery(value, index, array) {
+//     if(value) {
+//     console.log(value.title);
+//     console.log(value.subTitle);
+//     }
+//  }
+//  displayHeaderGallery();
 
 
-gallery.forEach(displayGallery);
+// gallery.forEach(displayGallery);
 
-function displayGallery(value, index, array) {
-    if(value) {
-        console.log(value.image);
-        console.log(value.caption);
-    }
-  }
-  displayGallery();
+// function displayGallery(value, index, array) {
+//     if(value) {
+//         console.log(value.image);
+//         console.log(value.caption);
+//     }
+//   }
+//   displayGallery();
