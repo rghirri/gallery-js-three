@@ -115,11 +115,30 @@ img{
     width: 100%;
     height: auto;
     object-fit: cover;
-    transition: 0.7s all ease-in-out;
+    /* transition: 0.7s all ease-in-out; */
 }
 
 /* img:hover{
     background-color: rgba(0, 0, 0, 0.425);
+} */
+
+/* .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+figure:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
 } */
 
 @keyframes zoom {
