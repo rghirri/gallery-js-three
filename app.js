@@ -1,7 +1,30 @@
 // asign elements
 //console.log(gallery);
+// const galleryHeader    = document.querySelector(".galleryHeader");
 const galleryContainer = document.querySelector(".galleryContainer");
+// Gallery Header
 
+//console.log(headerGallery);
+// function generateGalleryHeader(headerGallery) {
+   
+//     headerGallery.forEach(header => {
+//         let headerOne = document.createElement('h1');
+//         headerOne.classList.add("galleryTitle");
+//         header.innerText = header.title;
+
+//         let headerDiv = document.createElement('div');
+//         headerDiv.classList.add("gallerySubtitle");
+
+//         let headerParagraph       = document.createElement('p');
+//         headerParagraph.innerText = header.subTitle;
+//         headerDiv.appendChild(headerParagraph);
+//     });
+//     galleryHeader.append(headerOne, headerDiv);
+
+// }
+// generateGalleryHeader(headerGallery);
+
+// Gallery Container
 function generateGallery(columns, galleryImages) {
     galleryContainer.innerHTML = '';
 
